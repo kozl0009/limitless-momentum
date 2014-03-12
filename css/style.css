@@ -108,7 +108,8 @@ body {
     background: #2e4266;
     border-bottom: 1px solid #e2ecff;
     color: #e2ecff;
-    padding: 1%; }
+    padding: 1%;
+    cursor: pointer; }
   #sidebar .box .meeting-details {
     display: block;
     padding: 1%;

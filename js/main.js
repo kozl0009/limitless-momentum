@@ -16,6 +16,10 @@ $(document).ready(function(){
 	$(".training-box").click(function(e){
 	   $(this).find('.meeting-details').toggle();
 	});
+	
+	$(".button").click(function(e){
+	   //do nothing
+	});
 
 
 });

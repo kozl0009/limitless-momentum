@@ -62,7 +62,7 @@
     position: absolute;
     z-index: 999;
     top: 0;
-    right: 0;
+    right: 4;
     width: 15px;
     height: 50px;
     display: inline-block;
@@ -129,7 +129,7 @@ margin-bottom: -8px;  }
       /* background-color: #a6a6a2; */
       overflow: visible;
 	  text-align: center;
-      width: 13%;
+      width: 10%;
       margin-right: 40px;
 	  &:last-child { width: 14%;} }
     .flexnav li a {

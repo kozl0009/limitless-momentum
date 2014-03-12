@@ -66,16 +66,15 @@ body {
 @media (min-width: 320px) {
   #content {
     background: #e2ecff;
-    color: #2e4266;
-    padding: 1%;
-    margin-top: 10px; }
+    color: #2e4266; }
     #content h2 {
       background: #2e4266;
       border-bottom: 1px solid #e2ecff;
       color: #e2ecff;
       padding: 1%; }
     #content p {
-      width: 100%; } }
+      width: 100%;
+      padding: 1%; } }
 @media (min-width: 640px) {
   #content {
     background: transparent;
@@ -85,7 +84,9 @@ body {
     #content h2 {
       font-family: 'News Cycle', sans-serif;
       margin: 0;
-      padding: 1%; }
+      padding: 1%;
+      background: transparent;
+      color: #000; }
     #content p {
       width: 100%; } }
 

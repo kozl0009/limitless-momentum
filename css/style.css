@@ -1,0 +1,171 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: .9em;
+  margin: 10px 10px 10px 20px; }
+
+.wrapper {
+  background-image: -ms-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+  background-image: -moz-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+  background-image: -o-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fafafa), color-stop(1, whitesmoke));
+  background-image: -webkit-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+  background-image: linear-gradient(to bottom, #fafafa 0%, whitesmoke 100%);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 7px, inset white 0px 0px 5px;
+  border-top: 1px solid #FFF;
+  overflow: hidden; }
+
+.col-container, .wrapper {
+  margin: 0 auto; }
+  @media (min-width: 320px) {
+    .col-container, .wrapper {
+      width: 100%; } }
+  @media (min-width: 640px) {
+    .col-container, .wrapper {
+      width: 100%; } }
+  @media (min-width: 960px) {
+    .col-container, .wrapper {
+      width: 960px; } }
+  @media (min-width: 1016px) {
+    .col-container, .wrapper {
+      width: 1016px; } }
+
+.col-2-70 {
+  float: left;
+  padding: 0 1% 0 1%; }
+  @media (min-width: 320px) {
+    .col-2-70 {
+      width: 98%; } }
+  @media (min-width: 640px) {
+    .col-2-70 {
+      width: 58%; } }
+  @media (min-width: 960px) {
+    .col-2-70 {
+      width: 68%; } }
+  @media (min-width: 1016px) {
+    .col-2-70 {
+      width: 68%; } }
+
+.col-2-30 {
+  float: right;
+  padding: 0 1% 0 1%; }
+  @media (min-width: 320px) {
+    .col-2-30 {
+      width: 98%;
+      border-bottom: 1px solid #c0c0c0; } }
+  @media (min-width: 640px) {
+    .col-2-30 {
+      width: 37%;
+      border: 0; } }
+  @media (min-width: 960px) {
+    .col-2-30 {
+      width: 27%; } }
+  @media (min-width: 1016px) {
+    .col-2-30 {
+      width: 27%x; } }
+
+#content {
+  margin-top: 10px; }
+  #content h2 {
+    font-family: 'News Cycle', sans-serif;
+    margin: 0;
+    padding: 0; }
+
+@media (min-width: 320px) {
+  #sidebar .box {
+    padding: 1% 0 1% 0; }
+    #sidebar .box h2 {
+      font-family: 'News Cycle', sans-serif;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px dotted #c0c0c0;
+      color: #2e4266; }
+    #sidebar .box .meeting-details {
+      display: block; } }
+@media (min-width: 640px) {
+  #sidebar .box {
+    background-image: -ms-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fafafa), color-stop(1, whitesmoke));
+    background-image: -webkit-linear-gradient(top, #fafafa 0%, whitesmoke 100%);
+    background-image: linear-gradient(to bottom, #fafafa 0%, whitesmoke 100%);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 7px, inset white 0px 0px 5px;
+    border-top: 1px solid #FFF;
+    overflow: hidden;
+    width: 90%;
+    padding: 5%;
+    margin-top: 20px;
+    cursor: pointer; }
+    #sidebar .box h2 {
+      font-family: 'News Cycle', sans-serif;
+      margin: 0;
+      padding: 0;
+      border-bottom: 1px dotted #c0c0c0;
+      color: #2e4266; }
+    #sidebar .box .meeting-details {
+      display: none; } }
+
+.header-slogan {
+  float: left;
+  width: 27%;
+  padding: 1% 1% 0 1%;
+  font-size: 1.2em;
+  margin-top: 7px;
+  font-weight: 600; }
+  @media (min-width: 320px) {
+    .header-slogan {
+      display: none; } }
+  @media (min-width: 980px) {
+    .header-slogan {
+      display: block; } }
+
+.header-logo {
+  /* background: #000; */
+  height: 47px;
+  width: 150px;
+  float: left;
+  display: none;
+  margin-bottom: -10px;
+  background: url("../images/mobile-logo.jpg") no-repeat; }
+  @media (min-width: 320px) {
+    .header-logo {
+      display: block; } }
+  @media (min-width: 980px) {
+    .header-logo {
+      display: none; } }
+
+.header-navigation {
+  float: right;
+  width: 100%;
+  border-bottom: 1px solid #2e4266; }
+  @media (min-width: 320px) {
+    .header-navigation {
+      background: url("../images/mobile-nav-bg.jpg") repeat-x; } }
+  @media (min-width: 980px) {
+    .header-navigation {
+      background: transparent; } }
+
+.banner img {
+  max-width: 100%; }
+@media (min-width: 320px) {
+  .banner {
+    display: none; } }
+@media (min-width: 980px) {
+  .banner {
+    display: block; } }
+
+.footer {
+  width: 99%;
+  text-align: center;
+  float: left;
+  padding: 1%;
+  color: #fff;
+  background: #2e4266;
+  margin-top: 20px; }
+  .footer .developer {
+    width: 100%;
+    float: left;
+    font-size: .6em;
+    margin-top: 10px; }

@@ -141,13 +141,12 @@ body {
 	} 
 	
 	
-	.field-line {
-	    padding: 1%; 
+	.field-line { 
 		float: left;
 		width: 100%;
 		overflow: hidden;
 		margin-bottom: 10px;
-		
+		padding: 1%;
 		&:last-child { text-align: center; }
 	}
 }

@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 		if ($(window).width() <= 640) {  
 			$('#sidebar').insertBefore('#content');
-			$('"logo').insertBefore('#lang');
+			$('#logo').insertBefore('#lang');
 		}else{
 			$('#content').insertBefore('#sidebar'); 
 		}
@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 		if ($(window).width() <= 640) {  
 			$('#sidebar').insertBefore('#content');
-			$('"logo').insertBefore('#lang');
+			$('#logo').insertBefore('#lang');
 		}else{
 			$('#content').insertBefore('#sidebar'); 
 		}

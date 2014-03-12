@@ -47,16 +47,17 @@ body {
       width: 68%; } }
 
 .col-2-30 {
-  float: right;
-  padding: 0 1% 0 1%; }
+  float: right; }
   @media (min-width: 320px) {
     .col-2-30 {
-      width: 98%;
+      width: 100%;
+      padding: 0;
       border-bottom: 1px solid #c0c0c0; } }
   @media (min-width: 640px) {
     .col-2-30 {
       width: 37%;
-      border: 0; } }
+      border: 0;
+      padding: 0 1% 0 1%; } }
   @media (min-width: 960px) {
     .col-2-30 {
       width: 27%; } }
@@ -73,7 +74,7 @@ body {
 
 @media (min-width: 320px) {
   #sidebar .box {
-    padding: 1% 0 1% 0; }
+    padding: 1%; }
     #sidebar .box h2 {
       font-family: 'News Cycle', sans-serif;
       margin: 0;
@@ -167,7 +168,8 @@ body {
   height: 0; }
   @media (min-width: 320px) {
     .videowrapper {
-      display: block; } }
+      display: block;
+      margin-top: 10px; } }
   @media (min-width: 980px) {
     .videowrapper {
       display: none; } }

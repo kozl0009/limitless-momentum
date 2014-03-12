@@ -84,17 +84,43 @@ body {
 }
 
 #content {
-  h2 {
-    font-family: 'News Cycle', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  padding: 1%;
-  margin-top: 10px;
   
-	p {
-		width: 99%;
-	}
+  @media (min-width: 320px){
+		h2 {
+			background: #2e4266;
+		    border-bottom: 1px solid #e2ecff;
+		    color: #e2ecff;
+		    padding: 1%;
+		}
+		
+		p {
+			width: 100%;
+		}
+		
+		background: #e2ecff;
+		color: #2e4266;
+		
+		padding: 1%;
+		margin-top: 10px;
+  }
+  
+  @media (min-width: 640px){
+		h2 {
+			font-family: 'News Cycle', sans-serif;
+			margin: 0;
+			padding: 1%;
+		}  
+		
+		p {
+			width: 100%;
+		}
+		
+		background: transparent;
+		color: #000;
+		
+		padding: 1%;
+		margin-top: 10px;
+  }
   
 }
 
@@ -116,7 +142,6 @@ body {
             h2 {
                font-family: 'News Cycle', sans-serif;
                margin: 0;
-               padding: 0;
                background: #2e4266;
 			   border-bottom: 1px solid #e2ecff;
 			   color: #e2ecff;

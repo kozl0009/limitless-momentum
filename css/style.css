@@ -95,9 +95,12 @@ body {
       width: 100%; } }
 
 #register {
-  float: left; }
+  float: left;
+  padding: 1%; }
   #register .field-line {
-    float: left; }
+    float: left;
+    width: 100%;
+    overflow: hidden; }
 
 .textbox {
   background: #fff;

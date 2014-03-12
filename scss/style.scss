@@ -130,9 +130,12 @@ body {
 
 #register {
 	float: left;
+	padding: 1%;
 	
 	.field-line {
 		float: left;
+		width: 100%;
+		overflow: hidden;
 	}
 }
 

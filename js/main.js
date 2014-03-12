@@ -10,11 +10,11 @@ $(document).ready(function(){
 	//});
 
 	$(".box").click(function(e){
-	   $(this).find('.meeting-details').slideDown('1000');
+	   $(this).find('.meeting-details').toggle();
 	});
 	
 	$(".training-box").click(function(e){
-	   $(this).find('.meeting-details').slideDown('1000');
+	   $(this).find('.meeting-details').toggle();
 	});
 
 

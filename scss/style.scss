@@ -121,19 +121,23 @@ body {
 #sidebar {
     @media (min-width: 320px){
       .box {
-        padding: 1%;
-        
             h2 {
                font-family: 'News Cycle', sans-serif;
                margin: 0;
                padding: 0;
                border-bottom: 1px dotted #c0c0c0;
-               color: #2e4266;
+               background: #2e4266;
+			   color: #e2ecff;
+			   padding: 1%;
             }
         
             .meeting-details {
                 display: block;
+				padding: 1%;
+				background: #e2ecff;
+				color: #2e4266;
             }
+			
         
       }
     }

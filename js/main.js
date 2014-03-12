@@ -8,6 +8,15 @@ $(document).ready(function(){
 			$('#content').insertBefore('#sidebar'); 
 		}
 	//});
+	
+	$(window).resize(function(){
+
+		if ($(window).width() <= 640) {  
+			$('#sidebar').insertBefore('#content');
+		}else{
+			$('#content').insertBefore('#sidebar'); 
+		}
+	});
 
 	$(".box").click(function(e){
 	   $(this).find('.meeting-details').toggle();

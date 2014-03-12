@@ -70,12 +70,6 @@ body {
     font-family: 'News Cycle', sans-serif;
     margin: 0;
     padding: 0; }
-  @media (min-width: 320px) {
-    #content {
-      border-top: 1px solid #c0c0c0; } }
-  @media (min-width: 640px) {
-    #content {
-      border-top: 0; } }
   #content p {
     width: 99%; }
 

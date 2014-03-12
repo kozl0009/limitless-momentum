@@ -92,14 +92,6 @@ body {
   padding: 1%;
   margin-top: 10px;
   
-    @media (min-width: 320px){
-        border-top: 1px solid #c0c0c0;
-    }
-
-    @media (min-width: 640px){
-        border-top: 0;
-    }
-
 	p {
 		width: 99%;
 	}

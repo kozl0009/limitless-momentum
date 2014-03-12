@@ -86,7 +86,8 @@ body {
       margin: 0;
       padding: 1%;
       background: transparent;
-      color: #000; }
+      color: #000;
+      border-bottom: 0; }
     #content p {
       width: 100%; } }
 

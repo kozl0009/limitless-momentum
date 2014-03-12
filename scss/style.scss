@@ -165,10 +165,12 @@ body {
                padding: 0;
                border-bottom: 1px dotted #c0c0c0;
                color: #2e4266;
+			   background: transparent;
             }
         
             .meeting-details {
                 display: none;
+				background: transparent;
             }
        }
     }

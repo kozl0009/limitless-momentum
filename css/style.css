@@ -123,9 +123,11 @@ body {
       margin: 0;
       padding: 0;
       border-bottom: 1px dotted #c0c0c0;
-      color: #2e4266; }
+      color: #2e4266;
+      background: transparent; }
     #sidebar .box .meeting-details {
-      display: none; } }
+      display: none;
+      background: transparent; } }
 
 .header-slogan {
   float: left;

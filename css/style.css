@@ -94,6 +94,22 @@ body {
     #content p {
       width: 100%; } }
 
+#register {
+  float: left; }
+  #register .field-line {
+    float: left; }
+
+.textbox {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 7px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) inset;
+  padding: 7px 30px 7px 7px;
+  font-size: 14px;
+  color: #B3B3B3;
+  display: block;
+  width: 100%; }
+
 @media (min-width: 320px) {
   #video {
     padding: 0;

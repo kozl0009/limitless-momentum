@@ -42,10 +42,9 @@ body {
 
 .col-2-70 {
     float: left;   
-    padding: 0 1% 0 1%;
   
     @media (min-width: 320px){
-        width: 98%;
+        width: 100%;
     }
 
     @media (min-width: 640px){
@@ -91,7 +90,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  padding: 1%;
   margin-top: 10px;
 }
 
@@ -219,15 +218,6 @@ body {
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
-	
-	@media (min-width: 320px){
-		display: block;
-		margin-top: 10px;
-	}
-	
-	@media (min-width: 980px){
-		display: none;
-	}
 }
 .videowrapper iframe {
     position: absolute;

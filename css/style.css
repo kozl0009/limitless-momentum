@@ -31,11 +31,10 @@ body {
       width: 1016px; } }
 
 .col-2-70 {
-  float: left;
-  padding: 0 1% 0 1%; }
+  float: left; }
   @media (min-width: 320px) {
     .col-2-70 {
-      width: 98%; } }
+      width: 100%; } }
   @media (min-width: 640px) {
     .col-2-70 {
       width: 58%; } }
@@ -66,6 +65,7 @@ body {
       width: 27%x; } }
 
 #content {
+  padding: 1%;
   margin-top: 10px; }
   #content h2 {
     font-family: 'News Cycle', sans-serif;
@@ -166,13 +166,6 @@ body {
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0; }
-  @media (min-width: 320px) {
-    .videowrapper {
-      display: block;
-      margin-top: 10px; } }
-  @media (min-width: 980px) {
-    .videowrapper {
-      display: none; } }
 
 .videowrapper iframe {
   position: absolute;

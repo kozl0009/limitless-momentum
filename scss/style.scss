@@ -237,8 +237,9 @@ body {
 
 .header-navigation {
     float: right;
-    width: 100%;
+    width: 99%;
     border-bottom: 1px solid #2e4266;
+	padding-right: 10px;
 	
 	@media (min-width: 320px){
       background: #793605;

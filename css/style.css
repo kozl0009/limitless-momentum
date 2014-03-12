@@ -50,8 +50,7 @@ body {
   @media (min-width: 320px) {
     .col-2-30 {
       width: 100%;
-      padding: 0;
-      border-bottom: 1px solid #c0c0c0; } }
+      padding: 0; } }
   @media (min-width: 640px) {
     .col-2-30 {
       width: 37%;
@@ -71,6 +70,12 @@ body {
     font-family: 'News Cycle', sans-serif;
     margin: 0;
     padding: 0; }
+  @media (min-width: 320px) {
+    #content {
+      border-top: 1px solid #c0c0c0; } }
+  @media (min-width: 640px) {
+    #content {
+      border-top: 0; } }
 
 @media (min-width: 320px) {
   #sidebar .box {

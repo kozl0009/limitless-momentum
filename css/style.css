@@ -72,6 +72,7 @@ body {
       border-bottom: 1px solid #e2ecff;
       color: #e2ecff;
       padding: 1%;
+      margin: 0;
       font-family: 'News Cycle', sans-serif; }
     #content p {
       width: 100%;
